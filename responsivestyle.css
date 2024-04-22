@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+p{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+p+p{
+    margin-top: 20px;
+}
+
+
+div+div{
+    margin-top: 5px;
+}
+
+.blue{
+    background-color: rgb(0, 220, 227);
+    padding: 20px;
+}
+
+.red{
+    background-color: rgb(177, 0, 0);
+    padding: 20px;
+}
+
+.green{
+    background-color: rgb(3, 94, 3);
+    padding: 20px;
+}
+
+.darkblue{
+    background-color: rgb(1, 1, 123);
+    padding: 20px;
+}
+
+.grey{
+    background-color: rgb(92, 92, 92);
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    /*cambiar coso pa tABLET*/
+
+    .toflexy{
+        display: flex;
+    }
+
+    .darkblue{
+        margin-top: 0px ;
+    }
+
+    .green{
+        margin-right: 5px;
+    }
+  
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    /*pa pc*/
+
+    .toflexy{
+        display: flex;
+    }
+
+    .darkblue{
+        margin-top: 0px ;
+        margin-right: 100px;
+    }
+
+    .green{
+        margin-right: 5px;
+        margin-left: 100px;
+    }
+
+    .red{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+  
+}
+
+
